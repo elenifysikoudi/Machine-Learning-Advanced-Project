@@ -1,10 +1,20 @@
-This repository holds my code and report and presentation for the final project of LT2326.
+Final Project for LT2326
+This repository contains the code, report, and presentation for the final project of LT2326.
 
-Notebook 1 : ''' bash image captions.ipynb  '''
-Notebook 2 : ''' bash VQA VizWiz.ipynb '''
+Notebooks
+The project is divided into two main notebooks:
 
-The notebooks contain documentation for most of the functions so that can help you with understanding the code. The notebooks are to be run in order in some cases there are 2 functions with the same name 
-because they are different experiments. For example, preprocess_img in that case you need to run one of the two so they don't overwrite each other.
+Notebook 1: image captions.ipynb
 
-The saved models were too big for github if needed please ask them from me.
+This notebook focuses on generating image captions using a custom model.
+It includes detailed documentation for most functions to aid in understanding the code and workflow.
+Notebook 2: VQA VizWiz.ipynb
 
+This notebook explores Visual Question Answering (VQA) using the VizWiz dataset.
+Similar to the first notebook, it is well-documented to help follow the experiments.
+Usage Instructions
+The notebooks are intended to be run sequentially, as some dependencies and functions may carry over from one to another.
+In cases where two functions share the same name (e.g., preprocess_img), they represent different experimental setups. Be sure to execute only one version to avoid overwriting.
+Models
+The trained models could not be saved in github.
+If needed, please reach out to me directly to obtain the saved models.
